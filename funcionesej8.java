@@ -17,7 +17,7 @@ public class funcionesej8 {
 		Scanner sc = new Scanner(System.in);
 		for (int i=1; i<=num2;i++) {
 			if (num2 % i == 0 && primo(i)) {
-				System.out.println(i);
+				
 				cont++;
 			}
 			
@@ -28,6 +28,6 @@ public class funcionesej8 {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		int num2 = sc.nextInt();
-		System.out.println(contprimos(num2));
+		System.out.println("tiene "+contprimos(num2));
 	}
 }
